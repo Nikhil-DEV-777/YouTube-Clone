@@ -1,0 +1,119 @@
+.side-bar{
+   position: fixed;
+   top:70px;
+   left:0;
+   bottom:0;
+   background-color: white;
+   z-index: 100;
+   width: 240px;
+   overflow: auto; 
+   scrollbar-width: thin;
+   overflow: hidden;
+   
+}
+.side-bar:hover{
+   overflow: scroll;
+}
+.sidebar-link{
+   display: flex;
+   font-family: roboto,arial;
+   height: 40px;
+   width: 190px;
+   margin-left: 13px;
+   border-radius: 10px;
+   align-items: center;
+   padding-left: 10px;
+   font-size: 14px;
+}
+.sidebar-link-home{
+   display: flex;
+   font-family: roboto,arial;
+   height: 40px;
+   width: 190px;
+   margin-left: 13px;
+   border-radius: 10px;
+   align-items: center;
+   padding-left: 10px;
+   font-size: 15px;
+   background-color: rgb(244, 244, 244);
+}
+.sidebar-link-home:hover{
+   cursor: pointer;
+   background-color: rgb(244, 244, 244);
+
+}
+.sidebar-link-You{
+   display: flex;
+   font-family: roboto,arial;
+   height: 40px;
+   width: 190px;
+   border-radius: 10px;
+   align-items: center;
+   padding-left: 10px;
+   font-size: 15px;
+  
+}
+.sidebar-link:hover,.sidebar-link-you:hover{
+   cursor: pointer;
+   background-color: rgb(243, 237, 237);
+}
+.sidebar-title{
+   display: flex;
+   font-family: roboto,arial;
+   height: 43px;
+   width: 190px;
+   margin-left: 13px;
+   align-items: center;
+   padding-left: 10px;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.sidebar-icons{
+   margin-right: 20px;
+   height: 23px;
+}
+hr{
+   margin-left: 13px;
+   border-width: 1px 0 0;
+   opacity: 0.4;
+}
+.about-yt{
+   font-family: roboto,arial;
+   font-size:13px ;
+   width: 190px;
+   margin-left: 25px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   color: rgb(38, 36, 36);
+}
+.llc-yt{
+   font-family: roboto,arial;
+   font-size:10px ;
+   width: 190px;
+   margin-left: 25px;
+   padding-bottom: 10px;
+   color: gray;
+}
+.sidebar-link,.sidebar-link-you,.sidebar-link-home{
+   position: relative;
+}
+.sidebar-link .tool-tip,.sidebar-link-you .tool-tip,.sidebar-link-home .tool-tip{
+   position: absolute;
+    top: 35px;
+    left: 65px;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    font-size: 12px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0;
+    transition:opacity 0.2s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.sidebar-link:hover .tool-tip,.sidebar-link-you:hover .tool-tip,.sidebar-link-home:hover .tool-tip{
+   opacity: 1;
+}
