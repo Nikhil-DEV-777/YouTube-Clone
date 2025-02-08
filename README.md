@@ -3,7 +3,7 @@
 A simple, responsive YouTube clone built with HTML and CSS! This project aims to replicate the basic layout and design of YouTube, focusing on front-end visuals without any JavaScript or backend functionality. It's a great way to showcase web design and layout skills.
 
 ## 🔗 Live Demo
-Check out the live demo here: [YouTube Clone](you-tube-clone-nine-blond.vercel.app)
+Check out the live demo here: [YouTube Clone](https://you-tube-clone-nine-blond.vercel.app/)
 
 ## 🚀 Features
 
