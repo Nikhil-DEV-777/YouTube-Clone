@@ -56,16 +56,16 @@
     .video-grid{
         display: grid;
         grid-template-columns:1fr;
-        row-gap: 40px;
+        row-gap: 30px;
         
     }
     .thumbnails{
         width: 100%;
-        border-radius: 15px;
+        border-radius: 0px;
          }
      .profilepic{
          width:100%;
-         border-radius: 0px;
+         border-radius: 40px;
      }
      .video-info{
          width:200px;
